@@ -53,9 +53,9 @@ body { background: #181d21; }
 /* ------------------------------------------------------------------ */
 
 header {
-   height: 54px;
+   height: 80px;
    width: 100%;
-   background: #13171B;
+   background: #000000;
    position: fixed;
    left: 0;
    top: 0;
