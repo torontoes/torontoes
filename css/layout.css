@@ -53,7 +53,7 @@ body { background: #181d21; }
 /* ------------------------------------------------------------------ */
 
 header {
-   height: 80px;
+   height: 60px;
    width: 100%;
    background: #13171B;
    position: fixed;
@@ -81,8 +81,8 @@ header .logo a {
 	padding: 0;
 	border: none;
 	outline: none;
-   width: 64px;
-   height: 18px;   
+   width: 60%;
+   height: auto;   
 }
 
 /* header social */
