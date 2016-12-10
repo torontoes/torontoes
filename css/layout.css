@@ -55,7 +55,7 @@ body { background: #181d21; }
 header {
    height: 80px;
    width: 100%;
-   background: #000000;
+   background: #13171B;
    position: fixed;
    left: 0;
    top: 0;
@@ -68,7 +68,7 @@ header .logo {
    margin-right: 20px;
    margin-top: 13px;
    float: left;
-   width: 150px; 
+   width: 300px; 
    z-index: 991; 
 
    /* add position relative since z-index only applies to  
