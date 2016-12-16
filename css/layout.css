@@ -106,7 +106,7 @@ header .header-social li a:hover { color: #11ABB0; }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap, #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-	 margin: 0;
+	 margin-top: 20;
 	 padding: 0;
 	 border: none;
 	 outline: none;
