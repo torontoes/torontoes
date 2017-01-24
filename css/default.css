@@ -481,7 +481,7 @@ object {
 }
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
-
+/*
 #preload-01 { background: url(http://www.jatorontoes.com/torontoes/images/Product_Photo_(1).png) no-repeat -9999px -9999px; }
 #preload-02 { background: url(http://www.jatorontoes.com/torontoes/images/Product_Photo_(2).png) no-repeat -9999px -9999px; }
 #preload-03 { background: url(http://www.jatorontoes.com/torontoes/images/Product_Photo_(3).png) no-repeat -9999px -9999px; }
