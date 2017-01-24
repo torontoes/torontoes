@@ -370,6 +370,7 @@ ul.features li:nth-child(even) { }
 /* Portfolio Content */
 #screenshots-wrapper .columns { padding: 0; }
 .item .item-wrap {
+	margin: 10px;
    overflow: hidden;
    position: relative;
 
@@ -428,7 +429,6 @@ ul.features li:nth-child(even) { }
    margin-top: -15px;
 }
 .item .item-wrap img {
-	margin: 10px;
    vertical-align: bottom;
 
    -webkit-transition: all 0.3s ease-out;
