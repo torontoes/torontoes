@@ -250,7 +250,7 @@ ul#nav li.current a { color: #fff; }
 #features {
    background: #fff;
    padding-top: 96px;
-   padding-bottom: 78px;
+   padding-bottom: 20px;
    overflow: hidden;
 }
 #features .feature {
