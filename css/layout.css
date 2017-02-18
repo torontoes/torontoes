@@ -168,7 +168,8 @@ ul#nav li.current a { color: #fff; }
 
 #hero {
    background-repeat: no-repeat;
-   background-size: 100% auto 100%;
+   background-position: center;
+   background-size: cover;
    padding-top: 66px;
    background-image: url(https://github.com/torontoes/torontoes/blob/gh-pages/images/hero-image.png?raw=true);
    overflow: hidden;
