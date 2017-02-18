@@ -15,9 +15,10 @@
    g. Call To Action Section
    h. Testimonials Section
    i. Subscribe Section
-   j. Conact Form
-   k. footer
-   l. lightbox
+   j. Contact Form
+   k. Sock Counter
+   l. Footer
+   m. Lightbox
 
    todo: check bug in mobile z-index
 
@@ -166,8 +167,10 @@ ul#nav li.current a { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #hero {
+   background-repeat: no-repeat;
+   background-size: 100%;
    padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   background-image: url(/images/hero-image.png);
    overflow: hidden;
 }
 
@@ -756,10 +759,34 @@ ul.features li:nth-child(even) { }
    width: 47%;  
    text-align: center;
 }
-
+/* ------------------------------------------------------------------ */
+/* k. Sock Counter
+/* ------------------------------------------------------------------ */
+#sock-counter {
+   background: white;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px!important;}
+#sock-counter .counter {
+   width: 200px;
+ height: 200px;
+ -moz-border-radius: 50px;
+ -webkit-border-radius: 50px;
+ border-radius: 50px;
+ float: clear;
+ margin:5px;
+}
+#count
+{
+ font-family: 'montserrat-regular',sans-serif;
+ line-height: 100px;
+ color: black;
+ text-align: center;
+ font-size: 100px;
+}
 
 /* ------------------------------------------------------------------ */
-/* k. Footer
+/* l. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
@@ -867,7 +894,7 @@ footer .copyright {
 
 
 /* ------------------------------------------------------------------ */
-/* l. lightbox
+/* m. lightbox
 /* ------------------------------------------------------------------ */
 
 #imagelightbox {
