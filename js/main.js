@@ -129,7 +129,7 @@
    	 run();
 	}
 
-	animateValue("count", 0, 206, 5000);
+	animateValue("count", 0, 230, 3000);
    	 }, { offset: 'bottom-in-view'});
   	/*----------------------------------------------------*/
   	/* Smooth Scrolling
