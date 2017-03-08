@@ -196,9 +196,9 @@
    	$('.js .cross-browser .feature-media').addClass( 'animated pulse' ); 
   	}, { offset: 'bottom-in-view' });
 
-  	$('.js .video').waypoint(function() {
-   	$('.js .video .feature-media').addClass( 'animated pulse' );     
-  	}, { offset: 'bottom-in-view' });
+  	// $('.js .video').waypoint(function() {
+   // 	$('.js .video .feature-media').addClass( 'animated pulse' );     
+  	// }, { offset: 'bottom-in-view' });
 
   	$('.js #subscribe').waypoint(function() {
    	$('.js #subscribe input[type="email"]').addClass( 'animated fadeInLeftBig show' ); 
