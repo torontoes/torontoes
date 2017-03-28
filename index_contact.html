@@ -385,7 +385,7 @@
   $from = 'From: Contact Form';
   $message = $_POST['message'];  $to = 'info@jatorontoes.com';
   $subject = 'Contact Form';
-  $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+  $body = 'From: $name\n E-Mail: $email\n Message:\n $message';
   if (mail ($to, $subject, $body, $from)) {
     echo '<p>Your message has been sent!</p>';
   }
