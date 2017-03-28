@@ -734,39 +734,89 @@ ul.features li:nth-child(even) { }
    text-align: center;
 }
 /* ------------------------------------------------------------------ */
-/* j. Conact Form
+/* j. Contact Form
 /* ------------------------------------------------------------------ */
-#contact label {
+
+  #contact {
+    background: #10999E url(img/escheresque.png) ;
+    padding-top: 112px;
+    padding-bottom: 66px;
+    position: relative;
+    min-height: 198px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #contact h1 {
+    font: 30px 'montserrat-bold', sans-serif;
+    color: #6AECF0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 36px;
+  }
+  #contact label {
+    font: 16px;
     display:block;
-    margin-top:20px;
+    margin-top:10px;
     letter-spacing:2px;
+  }
+
+  #contact input[type="email"] {
+    display: inline;
+    float: center;
+    height: 40px;
+    margin: 0;
+    padding: 18px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'montserrat-regular',sans-serif;
+    width: 47%;
+    text-align: center;
+  }
+
+  #contact input[type="text"] {
+    display: inline;
+    float: center;
+    height: 40px;
+    margin: 0;
+    padding: 18px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'montserrat-regular',sans-serif;
+    width: 47%;
+    text-align: center;
+  }
+
+  #contact textarea {
+    display: inline;
+    float: center;
+    text-align: left;
+    padding: 0.4em 0.4em 0.4em 0.5em;
+    width: 47%;
+    height: 200px;
+    font-size: 18px;
+    font-family: 'montserrat-regular',sans-serif;
+    margin: 0;
+    white-space: initial;
+  }
+
+  #submit {
+    display: inline;
+    float: center;
+    width:200px;
+    height:40px;
+    text-align: center;
+    font-size: 20px;
+    border:none;
+    margin: 0;
+    cursor:pointer;
 }
 
-#contact input[type="email"] {
-   display: inline;
-   float: left;
-   height: 60px;
-   margin: 0;
-   padding: 18px 20px;
-   font-size: 18px;
-   line-height: 24px;
-   font-family: 'montserrat-regular',sans-serif;
-   width: 47%;  
-   text-align: center;
-}
+   #submit:hover {
+       opacity:.9;
+   }
 
-#contact input[type="name"] {
-   display: inline;
-   float: left;
-   height: 60px;
-   margin: 0;
-   padding: 18px 20px;
-   font-size: 18px;
-   line-height: 24px;
-   font-family: 'montserrat-regular',sans-serif;
-   width: 47%;  
-   text-align: center;
-}
 /* ------------------------------------------------------------------ */
 /* k. Sock Counter
 /* ------------------------------------------------------------------ */
