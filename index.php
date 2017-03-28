@@ -1,15 +1,12 @@
-
 <?php
- if ($_POST['submit']) {
+ if ($_GET['submit']) {
   if ($name != '' && $email != '') {
-  $name = $_POST['name'];
-  $email = $_POST['email'];
+  $name = $_GET['name'];
+  $email = $_GET['email'];
   $from = 'From: Contact Form';
-  $message = $_POST['message'];  $to = 'info@jatorontoes.com';
+  $message = $_GET['message'];  $to = 'info@jatorontoes.com';
   $subject = 'Contact Form';
-
-  $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
+  $body = 'From: $name\n E-Mail: $email\n Message:\n $message';
   if (mail ($to, $subject, $body, $from)) {
     echo '<p>Your message has been sent!</p>';
   }
