@@ -988,7 +988,7 @@ footer .copyright {
       #thankyou-text h1 {
         font: 40px/1.2em ‘montserrat-regular’, sans-serif;
         text-align: center;
-        display: table-cell;
+        display: block;
         vertical-align: middle;
         color: #fff;
         padding: 0;
