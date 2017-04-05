@@ -18,8 +18,8 @@
    j. Contact Form
    k. Sock Counter
    l. Footer
-   m. Lightbox
-
+   m. Thank you
+   n. Lightbox
    todo: check bug in mobile z-index
 
 ===================================================================== */
@@ -950,9 +950,72 @@ footer .copyright {
 }
 #go-top a:hover { background: #0F9095; }
 
-
 /* ------------------------------------------------------------------ */
-/* m. lightbox
+      /* m. Thank You
+      /* ------------------------------------------------------------------ */
+
+
+     #thankyou {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 66px;
+        overflow: hidden;
+
+     }
+
+     /* For high-res devices */
+      @media
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi) {
+
+       #thankyou {
+          background: #23292f  url(img/hero-bg_@2X.png);
+          background-size: 200px 200px;
+        }
+
+     }
+
+     #thankyou .row { max-width: 1040px; }
+
+     /* Hero Text */
+      #thankyou-text {
+        color: #ffffff ;
+        width: 83%;
+        text-align: center;
+        margin: 54px auto 24px auto;
+      }
+      #thankyou-text h1 {
+        font: 40px/1.2em ‘montserrat-regular’, sans-serif;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+      }
+      #thankyou-text h1 span,
+      #thankyou-text a { color: #11ABB0 ; }
+      #thankyou-text p {
+        font: 20px/40px ‘opensans-regular’, sans-serif;
+        color: #efefef ;
+        padding: 0;
+        margin: 12px 8% 0;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+      }
+
+     #thankyou-button {
+        text-align: center;
+        margin: 0 0 18px 0;
+      }
+      #thankyou-button {
+        font: 14px/24px ‘montserrat-bold’, sans-serif;
+        text-transform : uppercase;
+        letter-spacing: 2px;
+      }
+/* ------------------------------------------------------------------ */
+/* n. lightbox
 /* ------------------------------------------------------------------ */
 
 #imagelightbox {
