@@ -1,5 +1,5 @@
 <?php
- if ($_GET['submit']) {
+ if ($_POST['submit']) {
   if ($name != '' && $email != '') {
   $name = $_POST['name'];
   $email = $_POST['email'];
