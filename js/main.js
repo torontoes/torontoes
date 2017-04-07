@@ -103,7 +103,7 @@
     	var obj = document.getElementById(id);
     	var range = end - start;
     	// no timer shorter than 50ms (not really visible any way)
-    	var minTimer = 100;
+    	var minTimer = 50;
     	// calc step time to show all interediate values
     	var stepTime = Math.abs(Math.floor(duration / range));
 		
@@ -129,7 +129,7 @@
    	 run();
 	}
 
-	animateValue("count", 0, 500, 5000);
+	animateValue("count", 0, 500, 6000);
    	 }, { offset: 'bottom-in-view'});
   	/*----------------------------------------------------*/
   	/* Smooth Scrolling
